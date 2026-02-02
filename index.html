@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Will you be my Valentine?</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Ally 💘</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="card">
-    <h1>will you be my valentine? 💖</h1>
-    <div class="buttons">
+
+  <!-- Herz-Partikel im Hintergrund -->
+  <div class="hearts" aria-hidden="true"></div>
+
+  <!-- Konfetti-Canvas -->
+  <canvas id="confetti"></canvas>
+
+  <div class="card" id="card">
+    <div class="top">
+      <!-- Foto: Datei im Repo muss ally.jpg heißen -->
+      <img class="photo" src="ally.jpg" alt="Ally" />
+      <div class="badge">💗</div>
+    </div>
+
+    <h1>Ally, willst du mein Valentine sein?</h1>
+    <p class="subtitle">Ich frag nur ganz vorsichtig… 😇</p>
+
+    <div class="buttons" id="buttons">
       <button id="yes">Yes</button>
       <button id="no">No</button>
     </div>
-    <p id="msg"></p>
+
+    <p id="msg" class="msg"></p>
   </div>
 
   <script src="script.js"></script>
