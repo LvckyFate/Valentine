@@ -13,6 +13,7 @@ function moveNoButton() {
   const cardRect = card.getBoundingClientRect();
   const btnRect = noBtn.getBoundingClientRect();
 
+  
   noBtn.style.position = "absolute";
 
   const padding = 18;
