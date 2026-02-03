@@ -47,10 +47,14 @@ body{
   height:130px;
   border-radius: 999px;
   object-fit: cover;
+  filter: grayscale(100%) contrast(1.05);
   border: 6px solid rgba(255,255,255,0.9);
-  box-shadow: 0 0 0 0 rgba(255,45,120,0.45);
+  box-shadow:
+    0 0 0 0 rgba(255,45,120,0.45),
+    0 18px 40px rgba(0,0,0,0.35);
   animation: glow 2.2s ease-in-out infinite;
 }
+
 
 @keyframes glow{
   0%,100% { box-shadow: 0 0 0 0 rgba(255,45,120,0.45); }
