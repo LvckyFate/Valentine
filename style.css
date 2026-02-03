@@ -154,6 +154,7 @@ button{
   to{ transform: translateY(-110vh) scale(1.25); opacity:0; }
 }
 
+
 /* Konfetti Canvas */
 #confetti{
   position:fixed;
